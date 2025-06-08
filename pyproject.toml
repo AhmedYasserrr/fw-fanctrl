@@ -46,7 +46,8 @@ classifiers = [
 ]
 requires-python = ">=3.12"
 dependencies = [
-    "jsonschema~=4.23.0"
+    "jsonschema~=4.23.0",
+    "pyectool @ git+https://github.com/AhmedYasserrr/libectool.git@dev_py_pkg_build"
 ]
 optional-dependencies = { dev = [
     "black==24.8.0",
